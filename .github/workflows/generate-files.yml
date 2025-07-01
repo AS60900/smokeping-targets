@@ -1,4 +1,4 @@
-name: Update Targets
+name: Auto generate files
 run-name: ${{ github.workflow }} run by ${{ github.actor }}
 permissions:
   contents: write
@@ -21,5 +21,7 @@ jobs:
         run: git config user.email "github-actions@eranium.io"        
       - name: git commit config/Targets
         run: git commit -m 'Auto generate Targets file' config/Targets
+      - name: git commit INSTANCES.md
+        run: git commit -m 'Auto generate INSTANCES.md file' INSTANCES.md
       - name: git push origin HEAD
         run: git push origin HEAD     
