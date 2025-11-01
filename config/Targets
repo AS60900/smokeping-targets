@@ -1,5 +1,5 @@
 # Eranium SmokePing Targets Project
-# Generated on 2025-11-01 13:03:07
+# Generated on 2025-11-01 13:07:49
 # https://github.com/eranium/smokeping-targets
 
 *** Targets ***
@@ -9,6 +9,312 @@ menu = Top
 title = Example SmokePing
 remark = Welcome to the Example SmokePing. This page will show more insights about network latency and potential issues. The targets are based on an <a href="https://github.com/eranium/smokeping-targets" target="_blank">open source and community-driven project</a>.
 
+#####################
+
++ Anycast
+menu = Anycast
+title = Anycast
+
+++ Akamai
+menu = Akamai | AS20940
+title = Akamai | AS20940
+host = www.akamai.com
+
+++ Akamai-IPV6
+menu = Akamai | AS20940 IPv6
+title = Akamai | AS20940 IPv6
+probe = FPing6
+host = www.akamai.com
+
+++ Amazon
+menu = Amazon | AS16509
+title = Amazon | AS16509
+host = 99.83.149.1
+
+++ Bunny-net
+menu = Bunny.net | AS200325
+title = Bunny.net | AS200325
+host = kiki.bunny.net
+
+++ CDN77
+menu = CDN77 | AS60068
+title = CDN77 | AS60068
+host = www.cdn77.com
+
+++ CacheFly
+menu = CacheFly | AS30081
+title = CacheFly | AS30081
+host = www.cachefly.com
+
+++ Cisco-OpenDNS
+menu = Cisco OpenDNS | AS36692
+title = Cisco OpenDNS | AS36692
+host = 208.67.222.222
+
+++ Cisco-OpenDNS-IPV6
+menu = Cisco OpenDNS | AS36692 IPv6
+title = Cisco OpenDNS | AS36692 IPv6
+probe = FPing6
+host = 2620:119:53::53
+
+++ Cisco-Webex
+menu = Cisco Webex | AS13445
+title = Cisco Webex | AS13445
+host = www.webex.com
+
+++ Cloudflare
+menu = Cloudflare | AS13335
+title = Cloudflare | AS13335
+host = 1.1.1.1
+
+++ Cloudflare-IPV6
+menu = Cloudflare | AS13335 IPv6
+title = Cloudflare | AS13335 IPv6
+probe = FPing6
+host = 2606:4700:4700::1111
+
+++ Fastly
+menu = Fastly | AS54113
+title = Fastly | AS54113
+host = global.fastly.net
+
+++ Fastly-IPV6
+menu = Fastly | AS54113 IPv6
+title = Fastly | AS54113 IPv6
+probe = FPing6
+host = dualstack.nonssl.global.fastly.net
+
+++ G-Core-Labs
+menu = G-Core Labs | AS199524
+title = G-Core Labs | AS199524
+host = ns1.gcorelabs.net
+
+++ G-Core-Labs-IPV6
+menu = G-Core Labs | AS199524 IPv6
+title = G-Core Labs | AS199524 IPv6
+probe = FPing6
+host = ns1.gcorelabs.net
+
+++ Google-API
+menu = Google API | AS15169
+title = Google API | AS15169
+host = www.googleapis.com
+
+++ Google-API-IPV6
+menu = Google API | AS15169 IPv6
+title = Google API | AS15169 IPv6
+probe = FPing6
+host = www.googleapis.com
+
+++ Google-DNS
+menu = Google DNS | AS15169
+title = Google DNS | AS15169
+host = 8.8.8.8
+
+++ Google-DNS-IPV6
+menu = Google DNS | AS15169 IPv6
+title = Google DNS | AS15169 IPv6
+probe = FPing6
+host = 2001:4860:4860::8888
+
+++ Google-Drive
+menu = Google Drive | AS15169
+title = Google Drive | AS15169
+host = drive.google.com
+
+++ Incapsula
+menu = Incapsula | AS19551
+title = Incapsula | AS19551
+host = www.incapsula.com
+
+++ Meta
+menu = Meta | AS32934
+title = Meta | AS32934
+host = www.facebook.com
+
+++ Meta-IPV6
+menu = Meta | AS32934 IPv6
+title = Meta | AS32934 IPv6
+probe = FPing6
+host = www.facebook.com
+
+++ Microsoft
+menu = Microsoft | AS8068
+title = Microsoft | AS8068
+host = www.office.com
+
+++ Microsoft-IPV6
+menu = Microsoft | AS8068 IPv6
+title = Microsoft | AS8068 IPv6
+probe = FPing6
+host = www.office.com
+
+++ Quad9
+menu = Quad9 | AS19281
+title = Quad9 | AS19281
+host = 9.9.9.9
+
+++ Quad9-IPV6
+menu = Quad9 | AS19281 IPv6
+title = Quad9 | AS19281 IPv6
+probe = FPing6
+host = 2620:fe::fe
+
+++ WordPress
+menu = WordPress | AS2635
+title = WordPress | AS2635
+host = ns1.wordpress.com
+
+#####################
+
++ RootServers
+menu = Root Servers
+title = Root Servers
+
+++ A-ROOT-SERVERS-NET
+menu = A.ROOT-SERVERS.NET
+title = A.ROOT-SERVERS.NET
+host = 198.41.0.4
+
+++ A-ROOT-SERVERS-NET-IPV6
+menu = A.ROOT-SERVERS.NET IPv6
+title = A.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:503:ba3e::2:30
+
+++ B-ROOT-SERVERS-NET
+menu = B.ROOT-SERVERS.NET
+title = B.ROOT-SERVERS.NET
+host = 170.247.170.2
+
+++ B-ROOT-SERVERS-NET-IPV6
+menu = B.ROOT-SERVERS.NET IPv6
+title = B.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2801:1b8:10::b
+
+++ C-ROOT-SERVERS-NET
+menu = C.ROOT-SERVERS.NET
+title = C.ROOT-SERVERS.NET
+host = 192.33.4.12
+
+++ C-ROOT-SERVERS-NET-IPV6
+menu = C.ROOT-SERVERS.NET IPv6
+title = C.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:2::C
+
+++ D-ROOT-SERVERS-NET
+menu = D.ROOT-SERVERS.NET
+title = D.ROOT-SERVERS.NET
+host = 199.7.91.13
+
+++ D-ROOT-SERVERS-NET-IPV6
+menu = D.ROOT-SERVERS.NET IPv6
+title = D.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:2D::D
+
+++ E-ROOT-SERVERS-NET
+menu = E.ROOT-SERVERS.NET
+title = E.ROOT-SERVERS.NET
+host = 192.203.230.10
+
+++ E-ROOT-SERVERS-NET-IPV6
+menu = E.ROOT-SERVERS.NET IPv6
+title = E.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:a8::e
+
+++ F-ROOT-SERVERS-NET
+menu = F.ROOT-SERVERS.NET
+title = F.ROOT-SERVERS.NET
+host = 192.5.5.241
+
+++ F-ROOT-SERVERS-NET-IPV6
+menu = F.ROOT-SERVERS.NET IPv6
+title = F.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:2f::f
+
+++ G-ROOT-SERVERS-NET
+menu = G.ROOT-SERVERS.NET
+title = G.ROOT-SERVERS.NET
+host = 192.112.36.4
+
+++ G-ROOT-SERVERS-NET-IPV6
+menu = G.ROOT-SERVERS.NET IPv6
+title = G.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:12::d0d
+
+++ H-ROOT-SERVERS-NET
+menu = H.ROOT-SERVERS.NET
+title = H.ROOT-SERVERS.NET
+host = 198.97.190.53
+
+++ H-ROOT-SERVERS-NET-IPV6
+menu = H.ROOT-SERVERS.NET IPv6
+title = H.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:1::53
+
+++ I-ROOT-SERVERS-NET
+menu = I.ROOT-SERVERS.NET
+title = I.ROOT-SERVERS.NET
+host = 192.36.148.17
+
+++ I-ROOT-SERVERS-NET-IPV6
+menu = I.ROOT-SERVERS.NET IPv6
+title = I.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:7fe::53
+
+++ J-ROOT-SERVERS-NET
+menu = J.ROOT-SERVERS.NET
+title = J.ROOT-SERVERS.NET
+host = 192.58.128.30
+
+++ J-ROOT-SERVERS-NET-IPV6
+menu = J.ROOT-SERVERS.NET IPv6
+title = J.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:503:c27::2:30
+
+++ K-ROOT-SERVERS-NET
+menu = K.ROOT-SERVERS.NET
+title = K.ROOT-SERVERS.NET
+host = 193.0.14.129
+
+++ K-ROOT-SERVERS-NET-IPV6
+menu = K.ROOT-SERVERS.NET IPv6
+title = K.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:7fd::1
+
+++ L-ROOT-SERVERS-NET
+menu = L.ROOT-SERVERS.NET
+title = L.ROOT-SERVERS.NET
+host = 199.7.83.42
+
+++ L-ROOT-SERVERS-NET-IPV6
+menu = L.ROOT-SERVERS.NET IPv6
+title = L.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:500:9f::42
+
+++ M-ROOT-SERVERS-NET
+menu = M.ROOT-SERVERS.NET
+title = M.ROOT-SERVERS.NET
+host = 202.12.27.33
+
+++ M-ROOT-SERVERS-NET-IPV6
+menu = M.ROOT-SERVERS.NET IPv6
+title = M.ROOT-SERVERS.NET IPv6
+probe = FPing6
+host = 2001:dc3::35
+
+#####################
 
 + AF
 menu = AF - Africa
@@ -18,17 +324,18 @@ title = AF - Africa
 menu = ZA - South Africa
 title = ZA - South Africa
 
-+++ AF-ZA-5713
++++ 5713
 menu = Telkom | AS5713
 title = Telkom | AS5713
 host = 20.87.204.157
 
-+++ AF-ZA-5713-IPV6
++++ 5713-IPV6
 menu = Telkom | AS5713 IPv6
 title = Telkom | AS5713 IPv6
 probe = FPing6
 host = 2c0e:2008::1
 
+#####################
 
 + AS
 menu = AS - Asia
@@ -38,17 +345,18 @@ title = AS - Asia
 menu = IN - India
 title = IN - India
 
-+++ AS-IN-9498
++++ 9498
 menu = Bharti Airtel | AS9498
 title = Bharti Airtel | AS9498
 host = 182.71.53.98
 
-+++ AS-IN-9498-IPV6
++++ 9498-IPV6
 menu = Bharti Airtel | AS9498 IPv6
 title = Bharti Airtel | AS9498 IPv6
 probe = FPing6
 host = 2404:a800:0:14::1:1010
 
+#####################
 
 + EU
 menu = EU - Europe
@@ -58,45 +366,45 @@ title = EU - Europe
 menu = DE - Germany
 title = DE - Germany
 
-+++ EU-DE-3320
++++ 3320
 menu = Deutsche Telekom | AS3320
 title = Deutsche Telekom | AS3320
 host = 62.154.17.218
 
-+++ EU-DE-3320-IPV6
++++ 3320-IPV6
 menu = Deutsche Telekom | AS3320 IPv6
 title = Deutsche Telekom | AS3320 IPv6
 probe = FPing6
 host = 2a12:6900:1000::1
 
-+++ EU-DE-3209
++++ 3209
 menu = Vodafone Germany | AS3209
 title = Vodafone Germany | AS3209
 host = 2.200.0.1
 
-+++ EU-DE-3209-IPV6
++++ 3209-IPV6
 menu = Vodafone Germany | AS3209 IPv6
 title = Vodafone Germany | AS3209 IPv6
 probe = FPing6
 host = 2a02:8100:c0:1660::1:2
 
-+++ EU-DE-6805
++++ 6805
 menu = Telefonica Germany (o2) | AS6805
 title = Telefonica Germany (o2) | AS6805
 host = 185.98.140.1
 
-+++ EU-DE-6805-IPV6
++++ 6805-IPV6
 menu = Telefonica Germany (o2) | AS6805 IPv6
 title = Telefonica Germany (o2) | AS6805 IPv6
 probe = FPing6
 host = 2a02:3018::8a
 
-+++ EU-DE-8881
++++ 8881
 menu = 1&1 Versatel Deutschland | AS8881
 title = 1&1 Versatel Deutschland | AS8881
 host = 80.241.192.1
 
-+++ EU-DE-8881-IPV6
++++ 8881-IPV6
 menu = 1&1 Versatel Deutschland | AS8881 IPv6
 title = 1&1 Versatel Deutschland | AS8881 IPv6
 probe = FPing6
@@ -106,55 +414,56 @@ host = 2001:1438:2:4::9
 menu = NL - Netherlands
 title = NL - Netherlands
 
-+++ EU-NL-15435
++++ 15435
 menu = DELTA Fiber | AS15435
 title = DELTA Fiber | AS15435
 host = 62.45.0.1
 
-+++ EU-NL-1136
++++ 1136
 menu = KPN | AS1136
 title = KPN | AS1136
 host = 31.149.0.1
 
-+++ EU-NL-1136-IPV6
++++ 1136-IPV6
 menu = KPN | AS1136 IPv6
 title = KPN | AS1136 IPv6
 probe = FPing6
 host = 2a02:a400:8:1::ff02:174
 
-+++ EU-NL-50266
++++ 50266
 menu = Odido | AS50266
 title = Odido | AS50266
 host = 5.132.0.1
 
-+++ EU-NL-50266-IPV6
++++ 50266-IPV6
 menu = Odido | AS50266 IPv6
 title = Odido | AS50266 IPv6
 probe = FPing6
 host = 2a02:4240:5:1000::162
 
-+++ EU-NL-33915
++++ 33915
 menu = VodafoneZiggo | AS33915
 title = VodafoneZiggo | AS33915
 host = 217.102.208.1
 
-+++ EU-NL-33915-IPV6
++++ 33915-IPV6
 menu = VodafoneZiggo | AS33915 IPv6
 title = VodafoneZiggo | AS33915 IPv6
 probe = FPing6
 host = 2a00:18c8:0:1::1:53
 
-+++ EU-NL-35133
++++ 35133
 menu = Eranium | AS35133
 title = Eranium | AS35133
 host = smokeping-ams-nl.eranium.net
 
-+++ EU-NL-35133-IPV6
++++ 35133-IPV6
 menu = Eranium | AS35133 IPv6
 title = Eranium | AS35133 IPv6
 probe = FPing6
 host = smokeping-ams-nl.eranium.net
 
+#####################
 
 + NA
 menu = NA - North America
@@ -164,28 +473,29 @@ title = NA - North America
 menu = US - United States
 title = US - United States
 
-+++ NA-US-7018
++++ 7018
 menu = AT&T Enterprises | AS7018
 title = AT&T Enterprises | AS7018
 host = 12.0.1.28
 
-+++ NA-US-7018-IPV6
++++ 7018-IPV6
 menu = AT&T Enterprises | AS7018 IPv6
 title = AT&T Enterprises | AS7018 IPv6
 probe = FPing6
 host = 2001:1890:111d:1::28
 
-+++ NA-US-7922
++++ 7922
 menu = Comcast Cable Communications | AS7922
 title = Comcast Cable Communications | AS7922
 host = 66.208.229.10
 
-+++ NA-US-7922-IPV6
++++ 7922-IPV6
 menu = Comcast Cable Communications | AS7922 IPv6
 title = Comcast Cable Communications | AS7922 IPv6
 probe = FPing6
 host = 2001:559::a
 
+#####################
 
 + OC
 menu = OC - Oceania
@@ -195,11 +505,12 @@ title = OC - Oceania
 menu = AU - Australia
 title = AU - Australia
 
-+++ OC-AU-1221
++++ 1221
 menu = Telstra | AS1221
 title = Telstra | AS1221
 host = 203.36.190.1
 
+#####################
 
 + SA
 menu = SA - South America
@@ -209,12 +520,12 @@ title = SA - South America
 menu = BR - Brazil
 title = BR - Brazil
 
-+++ SA-BR-26615
++++ 26615
 menu = TIM | AS26615
 title = TIM | AS26615
 host = 152.233.245.129
 
-+++ SA-BR-26615-IPV6
++++ 26615-IPV6
 menu = TIM | AS26615 IPv6
 title = TIM | AS26615 IPv6
 probe = FPing6
