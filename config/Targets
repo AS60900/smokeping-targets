@@ -1,5 +1,5 @@
 # Eranium SmokePing Targets Project
-# Generated on 2025-11-01 13:07:49
+# Generated on 2025-12-02 20:51:05
 # https://github.com/eranium/smokeping-targets
 
 *** Targets ***
@@ -463,6 +463,78 @@ title = Eranium | AS35133 IPv6
 probe = FPing6
 host = smokeping-ams-nl.eranium.net
 
+++ SE
+menu = SE - Sweden
+title = SE - Sweden
+
++++ 208453
+menu = SweHosting | AS208453
+title = SweHosting | AS208453
+host = 193.181.23.1
+
++++ 208453-IPV6
+menu = SweHosting | AS208453 IPv6
+title = SweHosting | AS208453 IPv6
+probe = FPing6
+host = 2a07:54c1:f000::1
+
++++ 3301
+menu = Telia Sweden | AS3301
+title = Telia Sweden | AS3301
+host = 81.227.169.1
+
++++ 1299
+menu = Arelion (fka. Telia Carrier) | AS1299
+title = Arelion (fka. Telia Carrier) | AS1299
+host = 62.115.123.166
+
++++ 8473
+menu = Bahnhof | AS8473
+title = Bahnhof | AS8473
+host = 46.59.116.178
+
++++ 1257
+menu = Tele2 Sweden | AS1257
+title = Tele2 Sweden | AS1257
+host = 77.218.34.1
+
++++ 2119
+menu = Telenor | AS2119
+title = Telenor | AS2119
+host = 62.119.218.158
+
++++ 44034
+menu = Hi3G / 3 Sverige | AS44034
+title = Hi3G / 3 Sverige | AS44034
+host = 95.209.201.24
+
++++ 29518
+menu = Bredband 2 Sweden | AS29518
+title = Bredband 2 Sweden | AS29518
+host = 193.183.175.14
+
++++ 2603
+menu = NORDUnet | AS2603
+title = NORDUnet | AS2603
+host = 109.105.114.9
+
++++ 2603-IPV6
+menu = NORDUnet | AS2603 IPv6
+title = NORDUnet | AS2603 IPv6
+probe = FPing6
+host = 2001:948:0:f005::2
+
++++ 39351
+menu = 31173 Services AB | AS39351
+title = 31173 Services AB | AS39351
+host = 193.138.216.14
+
++++ 39351-IPV6
+menu = 31173 Services AB | AS39351 IPv6
+title = 31173 Services AB | AS39351 IPv6
+probe = FPing6
+host = 2a03:1b20:1:f101::14
+
 #####################
 
 + NA
@@ -494,6 +566,85 @@ menu = Comcast Cable Communications | AS7922 IPv6
 title = Comcast Cable Communications | AS7922 IPv6
 probe = FPing6
 host = 2001:559::a
+
++++ 701
+menu = Verizon Business | AS701
+title = Verizon Business | AS701
+host = 137.39.8.11
+
++++ 13333
+menu = Consolidated Communications | AS13333
+title = Consolidated Communications | AS13333
+host = 72.22.1.3
+
++++ 20055
+menu = Ziply Fiber | AS20055
+title = Ziply Fiber | AS20055
+host = 206.166.253.25
+
++++ 20055-IPV6
+menu = Ziply Fiber | AS20055 IPv6
+title = Ziply Fiber | AS20055 IPv6
+probe = FPing6
+host = 2605:21c0:fe00:1::25
+
++++ 4181
+menu = TDS Telecom | AS4181
+title = TDS Telecom | AS4181
+host = 216.165.129.158
+
++++ 5650
+menu = Frontier | AS5650
+title = Frontier | AS5650
+host = 66.133.129.56
+
++++ 5650-IPV6
+menu = Frontier | AS5650 IPv6
+title = Frontier | AS5650 IPv6
+probe = FPing6
+host = 2001:1960:20::56
+
++++ 6128
+menu = Cablevision Systems Corp | AS6128
+title = Cablevision Systems Corp | AS6128
+host = 167.206.237.230
+
++++ 46375
+menu = Sonic | AS46375
+title = Sonic | AS46375
+host = 50.0.1.1
+
++++ 46375-IPV6
+menu = Sonic | AS46375 IPv6
+title = Sonic | AS46375 IPv6
+probe = FPing6
+host = 2001:5a8::11
+
++++ 6079
+menu = RCN | AS6079
+title = RCN | AS6079
+host = 207.172.156.186
+
++++ 27364
+menu = Armstrong | AS27364
+title = Armstrong | AS27364
+host = 24.154.5.205
+
++++ 394358
+menu = NC SECU | AS394358
+title = NC SECU | AS394358
+host = 204.174.4.247
+
++++ 400587
+menu = Ryamer | AS400587
+title = Ryamer | AS400587
+host = 192.197.201.254
+
++++ 400587-IPV6
+menu = Ryamer | AS400587 IPv6
+title = Ryamer | AS400587 IPv6
+probe = FPing6
+host = 2602:fb95:98::ffff:254
 
 #####################
 
