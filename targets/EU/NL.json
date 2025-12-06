@@ -19,7 +19,7 @@
         "name": "Odido",
         "asn": 50266,
         "ipv4": "5.132.0.1",
-        "ipv6": "2a02:4240:5:1000::162",
+        "ipv6": "2a02:4240:5:1000::1",
         "location": "Amsterdam",
         "category": "isp"
     },
