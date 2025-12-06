@@ -1,0 +1,34 @@
+[
+  {
+    "name": "TTNET",
+    "asn": 47331,
+    "ipv4": "78.163.45.1",
+    "ipv6": null,
+    "location": false,
+    "category": "isp"
+  },
+  {
+    "name": "Turk Telekom",
+    "asn": 9121,
+    "ipv4": "85.111.30.111",
+    "ipv6": null,
+    "location": false,
+    "category": "isp"
+  },
+  {
+    "name": "TurkNet",
+    "asn": 12735,
+    "ipv4": "31.223.90.1",
+    "ipv6": false,
+    "location": false,
+    "category": "isp"
+  },
+  {
+    "name": "Vodafone Turkey",
+    "asn": 8386,
+    "ipv4": "46.2.72.1",
+    "ipv6": null,
+    "location": false,
+    "category": "isp"
+  }
+]
