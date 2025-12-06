@@ -1,5 +1,5 @@
 # Eranium SmokePing Targets Project
-# Generated on 2025-12-02 20:51:05
+# Generated on 2025-12-06 22:21:26
 # https://github.com/eranium/smokeping-targets
 
 *** Targets ***
@@ -356,6 +356,30 @@ title = Bharti Airtel | AS9498 IPv6
 probe = FPing6
 host = 2404:a800:0:14::1:1010
 
+++ TR
+menu = TR - Turkey
+title = TR - Turkey
+
++++ 47331
+menu = TTNET | AS47331
+title = TTNET | AS47331
+host = 78.163.45.1
+
++++ 9121
+menu = Turk Telekom | AS9121
+title = Turk Telekom | AS9121
+host = 85.111.30.111
+
++++ 12735
+menu = TurkNet | AS12735
+title = TurkNet | AS12735
+host = 31.223.90.1
+
++++ 8386
+menu = Vodafone Turkey | AS8386
+title = Vodafone Turkey | AS8386
+host = 46.2.72.1
+
 #####################
 
 + EU
@@ -391,7 +415,7 @@ host = 2a02:8100:c0:1660::1:2
 +++ 6805
 menu = Telefonica Germany (o2) | AS6805
 title = Telefonica Germany (o2) | AS6805
-host = 185.98.140.1
+host = 185.93.236.1
 
 +++ 6805-IPV6
 menu = Telefonica Germany (o2) | AS6805 IPv6
