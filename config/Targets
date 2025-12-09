@@ -1,5 +1,5 @@
 # Eranium SmokePing Targets Project
-# Generated on 2025-12-06 23:36:11
+# Generated on 2025-12-09 12:56:14
 # https://github.com/eranium/smokeping-targets
 
 *** Targets ***
@@ -373,7 +373,7 @@ host = 78.163.45.1
 +++ 9121
 menu = Turk Telekom | AS9121
 title = Turk Telekom | AS9121
-host = 212.175.0.3
+host = 212.175.0.10
 
 +++ 12735
 menu = TurkNet | AS12735
